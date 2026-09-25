@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>SQLBuild docs have moved</title>
+		<meta name="robots" content="noindex" />
+		<link rel="canonical" href="https://sqlbuild.com/docs/" />
+		<script>
+			(function () {
+				var path = location.pathname.replace(/\/index\.html$/, '/').replace(/\/+$/, '');
+				var url;
+				if (path === '') {
+					url = 'https://sqlbuild.com/';
+				} else if (/^\/(concepts\/virtual-environments|cli\/(promote|rollback|reconcile|state))(\/|$)/.test(path)) {
+					url = 'https://sqlbuild.com/docs/';
+				} else if (/\.[a-z0-9]+$/i.test(path)) {
+					url = 'https://sqlbuild.com' + path;
+				} else {
+					url = 'https://sqlbuild.com/docs' + path + '/' + location.hash;
+				}
+				document.querySelector('link[rel=canonical]').href = url;
+				location.replace(url);
+			})();
+		</script>
+	</head>
+	<body>
+		<p>The SQLBuild docs have moved to <a href="https://sqlbuild.com/docs/">sqlbuild.com/docs</a>.</p>
+	</body>
+</html>
