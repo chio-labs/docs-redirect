@@ -1,7 +1,7 @@
 # docs.sqlbuild.com
 
 Redirects the old `docs.sqlbuild.com` address to [sqlbuild.com](https://sqlbuild.com), which now hosts the
-SQLBuild docs at `/docs/`. GitHub Pages serves `404.html` for every path, so each old link lands on its
+SQLBuild docs at `/docs/`. Cloudflare Pages serves the permanent redirects in `_redirects`, so each old link lands on its
 new page:
 
 - `docs.sqlbuild.com/` goes to the homepage.

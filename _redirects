@@ -1,0 +1,12 @@
+/ https://sqlbuild.com/ 301
+/index.html https://sqlbuild.com/ 301
+/concepts/virtual-environments https://sqlbuild.com/docs/ 301
+/concepts/virtual-environments/* https://sqlbuild.com/docs/ 301
+/cli/promote https://sqlbuild.com/docs/ 301
+/cli/rollback https://sqlbuild.com/docs/ 301
+/cli/reconcile https://sqlbuild.com/docs/ 301
+/cli/state https://sqlbuild.com/docs/ 301
+/llms.txt https://sqlbuild.com/llms.txt 301
+/llms-full.txt https://sqlbuild.com/llms-full.txt 301
+/llms-small.txt https://sqlbuild.com/llms-small.txt 301
+/* https://sqlbuild.com/docs/:splat 301
