@@ -5,6 +5,8 @@ SQLBuild docs at `/docs/`. Cloudflare Pages serves the permanent redirects in `_
 new page:
 
 - `docs.sqlbuild.com/` goes to the homepage.
-- `docs.sqlbuild.com/<page>` goes to `sqlbuild.com/docs/<page>/`.
+- `docs.sqlbuild.com/<page>` goes to `sqlbuild.com/docs/<page>`.
 - Files such as `llms.txt` go to the same path on `sqlbuild.com`.
 - Pages that no longer exist go to `sqlbuild.com/docs/`.
+
+The site is published with Cloudflare Pages, with no build step.
